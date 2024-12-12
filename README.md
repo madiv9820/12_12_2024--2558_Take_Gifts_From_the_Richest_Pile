@@ -41,7 +41,7 @@
             ```
 
         - **C++ Solution**
-            ```cpp[]
+            ```cpp []
             class Solution {
             public:
                 long long pickGifts(vector<int>& gifts, int k) {
