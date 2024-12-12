@@ -77,11 +77,11 @@
     - **k transformations**: Each operation involves extracting the largest element (which takes **O(log n)**) and inserting the transformed value (which also takes **O(log n)**). Repeating this for `k` operations results in a total time complexity of **O(k log n)**.
     - **Summing the remaining values**: Finally, summing the values of the remaining gifts takes **O(n)** time.
 
-    Thus, the overall time complexity is: $O(n + k \ log n)$
+    Thus, the overall time complexity is: **$O(n + k \ log n)$**
 
 
 - ### Space Complexity:
     - **Heap storage**: The space used by the heap to store all gift values is **O(n)**.
     - **Auxiliary space**: Apart from the heap, there is no significant extra space used.
 
-    Therefore, the space complexity is: $O(n)$
+    Therefore, the space complexity is: **$O(n)$**
